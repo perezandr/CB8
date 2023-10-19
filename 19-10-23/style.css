@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 4px black;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+.title {
+  color: red;
+}
