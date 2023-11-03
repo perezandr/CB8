@@ -2,12 +2,14 @@
 
 //-------------------Termometro
 function hotOrCold(temp) {
-  if (temp >= 28) {
+  if (temp >= 27) {
     return "Caldo";
-  } else if (temp < 28 && temp >= 18) {
+  } else if (temp < 27 && temp >= 16) {
     return "Mite";
-  } else {
+  } else if (temp < 16) {
     return "Freddo";
+  } else {
+    return "Valore non valido";
   }
 }
 
@@ -48,7 +50,7 @@ function removeFromFavorites(nome) {
 // INVOCAZIONI
 
 // ----------------------Termometro
-console.log(hotOrCold(18));
+console.log(hotOrCold(22));
 
 // //-----------------------Object
 console.log(myself.firstName);
