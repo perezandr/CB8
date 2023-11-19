@@ -57,9 +57,3 @@ fetch("https://dummyjson.com/products")
   .then((data) => {
     console.log(data.products.filter((product) => product.price < 50));
   });
-
-//Esercizio 3
-// const noPopupButton = (button) =>{
-// btnY.addEventListener("click" () => {
-//   popup.style.display = 'none'
-// });
