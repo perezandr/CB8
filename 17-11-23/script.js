@@ -1,4 +1,4 @@
-//Esercizio 1
+//Esercizio 1 & 3
 const cE = (type) => document.createElement(type);
 
 const bg = cE("main");
