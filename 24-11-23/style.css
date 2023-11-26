@@ -2,13 +2,13 @@ html,
 body {
   margin: 0;
 }
-/* -------------------------------------- */
+/* FONT */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 
 body {
   font-family: "DM Sans", sans-serif;
 }
-/* ---------------------------------------------- */
+/* MEDIA */
 @media (max-width: 500px) {
   .hero-image,
   .info-image {
@@ -72,7 +72,6 @@ button:hover {
   background-color: #a4fee0;
 }
 
-/* ---------------------------------------------- */
 /* NAVBAR */
 .navbar {
   display: flex;
@@ -178,7 +177,8 @@ button:hover {
   max-width: 300px;
   max-height: 400px;
 }
-/* -------------------------------------*/
+
+/* ANIMATIONS*/
 @keyframes swingAndGrow {
   0% {
     transform: scale(1) rotate(0deg);
@@ -204,7 +204,6 @@ button:hover {
 .icon-img:hover {
   animation: swingAndGrow 3s ease-in-out infinite;
 }
-/* ------------------------------------ */
 
 /* CONTACT US */
 .contact-us {
@@ -307,6 +306,7 @@ footer {
   justify-content: center;
   align-items: center;
   align-content: center;
+  cursor: pointer;
   border-radius: 100px 20px 100px 20px;
   padding: 10px;
   border: 2px solid black;
