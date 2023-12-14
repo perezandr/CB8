@@ -1,0 +1,17 @@
+.CardList {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.CardList h2 {
+  padding: 0 24px;
+}
+
+.CardList__items {
+  padding: 12px 0px 12px 12px;
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+  overflow-x: scroll;
+}
