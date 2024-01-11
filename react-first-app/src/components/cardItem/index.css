@@ -1,0 +1,17 @@
+.CardItem {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 4px black;
+  border-radius: 12px;
+}
+
+.CardItem img {
+  width: 200px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.CardItem_text {
+  padding: 6px 12px;
+}
