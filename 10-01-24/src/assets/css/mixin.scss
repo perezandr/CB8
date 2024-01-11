@@ -1,0 +1,16 @@
+@mixin todoItemContainer(
+  $dir: row,
+  $align: inherit,
+  $justify: inherit,
+  $gap: 0px,
+  $width: 80%
+) {
+  display: flex;
+  flex-direction: $dir;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+  padding: 15px;
+  width: $width;
+  border-radius: 20px;
+}
