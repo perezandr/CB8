@@ -1,0 +1,10 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
