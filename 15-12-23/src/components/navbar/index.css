@@ -1,0 +1,41 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: darkmagenta;
+  padding: 10px 0px;
+  gap: 20px;
+  width: 100%;
+}
+
+.Navbar img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.user-avatar {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.buttons-list,
+.user-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.Navbar button {
+  border-radius: 20px;
+  width: 150px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
