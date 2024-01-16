@@ -1,0 +1,6 @@
+@import "../../assets/css/mixin.scss";
+
+.todoList {
+  @include todoItemContainer(column, center, center, 10px);
+  height: 80%;
+}

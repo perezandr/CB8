@@ -1,0 +1,11 @@
+@import "../src/assets/css/mixin.scss";
+
+.App {
+  @include todoItemContainer(column, center, center, 10px, 100%);
+  margin: 0px;
+  padding: 0px;
+
+  .title {
+    font-size: 40px;
+  }
+}
