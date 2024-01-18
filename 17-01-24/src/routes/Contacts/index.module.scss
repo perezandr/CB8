@@ -1,0 +1,32 @@
+@import "/src/assets/scss/variables.scss";
+@import "/src/assets/scss/mixins.scss";
+
+.header {
+  @include flex(row, center, space-around, 20px);
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.contactCardList {
+  @include flex(row, center, space-around, 20px);
+  flex-wrap: wrap;
+
+  .contactCard {
+    @include flex(column, center, center, 5px);
+    color: black;
+    background-color: $secondary-color;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 3px solid $highlights-color;
+    padding: 10px;
+    font-size: 20px;
+    @include hover-shadow;
+    h3 {
+      margin: 0px;
+    }
+    ul {
+      list-style: none;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "./assets/scss/variables.scss";
+@import "./assets/scss/mixins.scss";
+
+:root {
+  background-color: $primary-color;
+}
+
+button {
+  color: black;
+  background-color: $secondary-color;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 3px solid $highlights-color;
+  padding: 5px;
+  font-size: 20px;
+  @include hover-shadow;
+}

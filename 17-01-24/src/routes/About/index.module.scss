@@ -1,0 +1,20 @@
+@import "/src/assets/scss/variables.scss";
+@import "/src/assets/scss/mixins.scss";
+
+.aboutUs {
+  @include flex(row, center, space-around, 20px);
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contentAboutUs {
+  @include flex;
+  font-size: larger;
+
+  img {
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 1px black;
+  }
+}

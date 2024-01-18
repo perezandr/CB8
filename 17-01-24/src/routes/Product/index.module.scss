@@ -1,0 +1,38 @@
+@import "/src/assets/scss/variables.scss";
+@import "/src/assets/scss/mixins.scss";
+
+.product {
+  @include flex(column);
+
+  .header {
+    @include flex(row, center, space-around, 20px);
+    flex-wrap: wrap;
+    width: 80%;
+
+    .headerLeft {
+      @include flex(row, baseline, center, 10px);
+    }
+  }
+
+  .body {
+    @include flex(row, center, space-evenly, 20px);
+    width: 80%;
+
+    .textWrapper {
+      @include flex(column, center, center, 10px);
+      font-size: 20px;
+    }
+  }
+}
+
+.gallery {
+  @include flex(row, flex-start, flex-start, 20px);
+  @include carousel;
+  width: 80%;
+  .productImg {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 40px;
+  }
+}

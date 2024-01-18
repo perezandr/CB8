@@ -1,0 +1,32 @@
+@import "/src/assets/scss/variables.scss";
+@import "/src/assets/scss/mixins.scss";
+
+.navBar {
+  @include flex;
+  margin-bottom: 100px;
+  list-style: none;
+}
+
+.productCarousel {
+  @include flex(row, flex-start, flex-start, 20px);
+  @include carousel;
+
+  .product {
+    @include flex(column, center, center, 10px);
+    background-color: $secondary-color;
+    border-radius: 40px;
+    @include hover-shadow;
+
+    .title {
+      font-size: 30px;
+      margin: 0px;
+      text-decoration: none;
+    }
+    .productImg {
+      width: 500px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 40px;
+    }
+  }
+}
