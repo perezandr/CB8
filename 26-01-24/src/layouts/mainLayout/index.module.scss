@@ -1,0 +1,33 @@
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: white;
+  background-color: grey;
+  margin: 0;
+  width: 100%;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    list-style: none;
+  }
+}
+
+.Footer {
+  background-color: grey;
+  margin: 0;
+  p {
+    margin: 0;
+  }
+}

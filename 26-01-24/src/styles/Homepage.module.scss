@@ -1,0 +1,16 @@
+.Homepage {
+  border: 2px solid red;
+  position: relative;
+  height: 100vh;
+
+  .inputWrapper {
+    border: 2px solid red;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .square {
+    pointer-events: none;
+  }
+}
