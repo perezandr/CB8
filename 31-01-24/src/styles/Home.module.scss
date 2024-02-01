@@ -1,0 +1,41 @@
+.Main {
+  background-color: rgb(201, 204, 204);
+  height: 100vh;
+  margin: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  .Chat {
+    box-shadow: 1px 1px 10px rgb(145, 131, 131);
+    border-radius: 25px;
+    padding: 40px;
+    margin: 20px;
+    overflow-y: scroll;
+
+    height: 70vh;
+    max-width: 60vh;
+
+    .user {
+      background-color: #9da2a8;
+      text-align: right;
+      color: rgb(27, 27, 25);
+      margin-left: 40px;
+    }
+
+    .assistant {
+      background-color: #34495e;
+      text-align: left;
+      color: cornsilk;
+      margin-right: 40px;
+    }
+
+    p {
+      padding: 10px;
+      border-radius: 15px;
+      box-shadow: 1px 1px 5px rgb(37, 33, 33);
+    }
+  }
+}
