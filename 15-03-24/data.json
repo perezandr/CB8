@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone X",
+    "brand": "TechCo",
+    "price": 599.99,
+    "description": "The latest flagship smartphone with advanced features.",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 2,
+    "name": "Wireless Headphones",
+    "brand": "AudioTech",
+    "price": 149.99,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 3,
+    "name": "Smart Watch 3",
+    "brand": "Wearables Inc",
+    "price": 199.99,
+    "description": "A sleek smartwatch with fitness tracking and notifications.",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 4,
+    "name": "Ultra HD Television",
+    "brand": "Home Electronics",
+    "price": 1299.99,
+    "description": "A large-screen television with stunning Ultra HD resolution.",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 5,
+    "name": "Laptop Pro",
+    "brand": "TechCo",
+    "price": 999.99,
+    "description": "A powerful and versatile laptop for work and entertainment.",
+    "image": "https://picsum.photos/200/300"
+  }
+]
